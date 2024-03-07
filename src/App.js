@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="main w-full h-screen bg-[#121417] flex items-center justify-center">
       {!saveRating ? (
-        <div className="card bg-gradient-to-t from-[#171c23] to-[#222a33] w-[23rem] max-w-[23rem] px-7 py-6 rounded-[22px] flex flex-col items-start justify-center">
+        <div className="card mx-2 sm:mx-0 bg-gradient-to-t from-[#171c23] to-[#222a33] w-[23rem] max-w-[23rem] px-7 py-6 rounded-[22px] flex flex-col items-start justify-center">
         <div className="icon mb-2 mt-2">
           <img src={star} alt="" className='w-7 h-7 p-[8px] bg-[#2b3540] rounded-full' />
         </div>

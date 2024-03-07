@@ -3,7 +3,7 @@ import receiptImg from "../assets/illustration-thank-you.svg"
 
 const ThankYou = ({ rating }) => {
   return (
-    <div className="card bg-gradient-to-t from-[#161b22] to-[#242c35] w-[23rem] max-w-[23rem] px-6 py-7 rounded-[22px] flex flex-col items-center justify-center">
+    <div className="card mx-2 sm:mx-0 bg-gradient-to-t from-[#161b22] to-[#242c35] w-[23rem] max-w-[23rem] px-6 py-7 rounded-[22px] flex flex-col items-center justify-center">
         <div className="image">
             <img src={receiptImg} className='w-[135px] pt-3 pb-7' alt="" />
         </div>
